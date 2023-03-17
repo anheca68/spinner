@@ -1,0 +1,49 @@
+* {
+  outline: 1px solid transparent !important;
+}
+
+:root {
+  --primary: cyan;
+  --secondary: rgb(60, 3, 60);
+  --tamano: 200px;
+  --interno: calc(var(--tamano) * .85);
+  --user-time: 0.5s;
+}
+
+body {
+  align-items: center;
+  background: #00061f;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.sppiner {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  border-radius: 50%;
+  height: var(--tamano);
+  position: relative;
+  width: var(--tamano);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin var(--user-time) linear infinite;
+}
+
+.fondo {
+  background: #00061f;
+  height: var(--interno);
+  width: var(--interno);
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
