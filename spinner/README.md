@@ -11,7 +11,7 @@ El código esta dividido básicamente en dos archivos, uno de HTML, que incluye 
 `code`
 
 ```
-
+.sppiner {
   background: linear-gradient(to right, var(--primary), var(--secondary));
   border-radius: 50%;
   height: var(--tamano);
