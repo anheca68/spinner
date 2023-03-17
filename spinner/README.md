@@ -8,7 +8,7 @@ En este repositorio podemos encontrar visualizar el código base para poder gene
 
 El código esta dividido básicamente en dos archivos, uno de HTML, que incluye solo dos lineas y un archivo CSS con la propiedades o atributos requeridos para hacer que el spinner simule un movimiento rotatorio.
 
-`code`
+`code CSS`
 
 ```
 .sppiner {
